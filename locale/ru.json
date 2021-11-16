@@ -1,0 +1,19 @@
+{
+  "Host": "Хост (Xiaomi Gateway)",
+  "Port": "Порт",
+  "Token": "Токен",
+  "VolumeControl": "Задать параметры громкости при старте плагина",
+  "AlarmVolume": "Громкость тревоги",
+  "DoorbellVolume": "Громкость дверного звонка",
+  "RadioVolume": "Громкость радио",
+  "GatewayVolume": "Громкость шлюза",
+  "ChannelPowerConsumed": "Дополнительный канал Power Consumed",
+  "ChannelLoadPower": "Дополнительный канал Load Power",
+  "ChannelInuse": "Дополнительный канал Inuse",
+  "ChannelVoltage": "Дополнительный канал Voltage",
+  "ChannelActive": "Дополнительный канал Last Data",
+  "MotionReset": "Автоматический сброс движения (сек)",
+  "Property": "Свойство",
+  "Model": "Модель",
+  "Sid": "Идентификатор"
+}

@@ -1,0 +1,83 @@
+{
+  "grid": [
+    { "id": "p1", "xs": 6, "class": "main", "table": "units" },
+    { "id": "p3", "xs": 6, "class": "main", "table": "units" },
+    { "id": "p4", "xs": 12, "class": "main", "table": "unitsTreeTable", "height": "fill" }
+  ],
+
+  "spacing": 10,
+  "breadcrumbs": { "tree": "plugins" },
+  "p1": [
+    {
+      "prop": "host",
+      "title": "$Host",
+      "type": "input",
+      "default": "192.168.0.111"
+    },
+    {
+      "prop": "port",
+      "title": "$Port",
+      "type": "input",
+      "default": "9898"
+    },
+    {
+      "prop": "token",
+      "title": "$Token",
+      "type": "input",
+      "default": ""
+    },
+    {
+      "prop": "motion_reset",
+      "title": "$MotionReset",
+      "type": "input",
+      "default": 15
+    }
+  ],
+  "p3": [
+    {
+      "prop": "volume_control",
+      "title": "$VolumeControl",
+      "type": "cb",
+      "default": false
+    },
+    {
+      "prop": "alarm_volume",
+      "title": "$AlarmVolume",
+      "type": "input",
+      "default": 70
+    },
+    {
+      "prop": "doorbell_volume",
+      "title": "$DoorbellVolume",
+      "type": "number",
+      "default": 60
+    },
+    {
+      "prop": "radio_volume",
+      "title": "$RadioVolume",
+      "type": "input",
+      "default": 20
+    },
+    {
+      "prop": "gateway_volume",
+      "title": "$GatewayVolume",
+      "type": "number",
+      "default": 40
+    }
+  ],
+  "p4": [
+    {
+      "title": "",
+      "type": "table",
+      "prop": "unitsTreeTable",
+      "columns": [
+        { "prop": "prop", "title": "ID", "type": "text", "width": 150 },
+        { "prop": "state", "title": "Состояние", "type": "text", "width": 150 },
+        { "prop": "laststart", "title": "Время запуска", "type": "text", "width": 150 },
+        { "prop": "laststop", "title": "Время останова", "type": "text", "width": 150 },
+        { "prop": "uptime", "title": "Uptime", "type": "text", "width": 150 },
+        { "prop": "error", "title": "Ошибка", "type": "text", "width": 250 }
+      ]
+    }
+  ]
+}

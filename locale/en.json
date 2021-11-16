@@ -1,0 +1,19 @@
+{
+  "Host": "Host (Xiaomi Gateway)",
+  "Port": "Listen Port",
+  "Token": "Token",
+  "VolumeControl": "Set volume at plugin's start",
+  "AlarmVolume": "Alarm volume",
+  "DoorbellVolume": "Doorbell volume",
+  "RadioVolume": "Radio volume",
+  "GatewayVolume": "Gateway volume",
+  "ChannelPowerConsumed": "Additional channel Power Consumed",
+  "ChannelLoadPower": "Additional channel Load Power",
+  "ChannelInuse": "Additional channel Inuse",
+  "ChannelVoltage": "Additional channel Voltage",
+  "ChannelActive": "Additional channel Last Data",
+  "MotionReset": "Auto Reset Motion (sec)",
+  "Property": "Property",
+  "Model": "Model",
+  "Sid": "Sid"
+}

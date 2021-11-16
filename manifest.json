@@ -1,0 +1,17 @@
+{
+  "id": "xiaomi",
+  "description": "Xiaomi Plugin",
+  "module": "index.js",
+  "single": 0,
+
+  "channel_folder_popup": {
+    "add":[{ "id": "folder", "title": "$NewFolder" }],
+    "copypaste":false,
+    "delete":true
+  },
+  "channel_popup": {
+    "add":[{ "id": "folder", "title": "$NewFolder" }],
+    "copypaste":false,
+    "delete":true
+  }
+}
