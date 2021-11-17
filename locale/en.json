@@ -12,7 +12,7 @@
   "ChannelInuse": "Additional channel Inuse",
   "ChannelVoltage": "Additional channel Voltage",
   "ChannelActive": "Additional channel Last Data",
-  "MotionReset": "Auto Reset Motion (sec)",
+  "MotionReset": "Auto Reset Motion Sensor (sec)",
   "Property": "Property",
   "Model": "Model",
   "Sid": "Sid"

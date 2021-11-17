@@ -12,7 +12,7 @@
   "ChannelInuse": "Дополнительный канал Inuse",
   "ChannelVoltage": "Дополнительный канал Voltage",
   "ChannelActive": "Дополнительный канал Last Data",
-  "MotionReset": "Автоматический сброс движения (сек)",
+  "MotionReset": "Автоматический сброс дачтика движения (сек)",
   "Property": "Свойство",
   "Model": "Модель",
   "Sid": "Идентификатор"
