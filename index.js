@@ -1,5 +1,4 @@
 const util = require('util');
-const plugin = require('ih-plugin-api')();
 const Xiaomi = require('./lib/xiaomi');
 
 const { getDeviceValue, getDeviceAction } = require('./lib/utils');
@@ -10,7 +9,14 @@ let channels = [];
 let folders = {};
 let devices = {};
 
+let plugin;
+
 async function main() {
+  const argv = JSON.parse(process.argv[2]);
+  const pluginapi = argv && argv.pluginapi ? argv.pluginapi : 'ih-plugin-api';
+   
+  plugin = require(pluginapi+'/index.js')();
+  
   opt = plugin.opt;
   settings = await plugin.params.get();
 
